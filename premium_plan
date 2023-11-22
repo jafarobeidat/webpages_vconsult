@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Premium Plan - VCONSULT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #003366; /* Updated color for consistency */
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            color: #003366; /* Updated color for consistency */
+        }
+
+        .plan-details ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        button {
+            background-color: #003366; /* Updated color for consistency */
+            color: #fff; /* Changed text color to white */
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #144077;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #003366; /* Updated color for consistency */
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Premium Plan</h1>
+        <p>Full access to Legal Chat and Doc Review + Personal Advisor</p>
+    </header>
+
+    <main>
+        <section class="plan-details">
+            <h2>Plan Details</h2>
+            <p>The Premium Plan includes:</p>
+            <ul>
+                <li>Full access to Legal Chat.</li>
+                <li>Full access to Document Review features.</li>
+                <li>3 hours of personal advisor assistance.</li>
+                <!-- Add more details if needed -->
+            </ul>
+        </section>
+
+        <section class="subscription-info">
+            <h2>Subscription Information</h2>
+            <p>Cost: $49.99 per month</p>
+            <!-- Add more subscription details if necessary -->
+        </section>
+
+        <section class="interactive-elements">
+            <h2>Interact with the Premium Plan</h2>
+            <!-- Include any interactive elements here -->
+            <button onclick="accessAllFeatures()">Access All Features</button>
+            <!-- Consider incorporating elements for personal advisor contact -->
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact us for more information or support.</p>
+    </footer>
+
+    <script>
+        function accessAllFeatures() {
+            // Handle access to all features functionality here
+            alert('Redirecting to premium features...');
+            // You can add redirection logic or further functionality
+        }
+    </script>
+</body>
+</html>
